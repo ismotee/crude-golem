@@ -47,3 +47,6 @@ export default Golem(task)(Ready, Loading, Error);
 Golem works like a basic React high order components. First you call Golem() and you give a Promise which resolves the data from fetch. This data will be passed to Ready Component as a props. If Promise returns a reject the parameters of the reject will be passed to the Error component.
 
 (Note that nothing won't stop you from using Redux or other data management for accessing the data. The actions needs to be dispatched within the Promise.)
+
+# State of the project
+The project is postponed to the indefinite future.
